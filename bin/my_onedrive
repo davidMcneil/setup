@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+mkdir -p ~/my_onedrive
+rclone mount my_onedrive: ~/my_onedrive --vfs-cache-mode full &
